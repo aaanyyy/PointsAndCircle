@@ -41,7 +41,7 @@ public class Main {
         tmpR=sc.nextInt();
         sc.nextLine();
         Circle circle=new Circle(Center,tmpR);
-        circle.IsInsite(PointList);
+        circle.showInnerPoints(PointList);
 
 
 

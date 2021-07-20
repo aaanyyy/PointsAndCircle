@@ -17,7 +17,7 @@ package com.company;
          else return false;
      }
 
-     void IsInsite(ArrayOfPoints PointsToCheck)
+     void showInnerPoints(ArrayOfPoints PointsToCheck)
      {
          for(int i=0;i<PointsToCheck.getSize();i++)
          {
