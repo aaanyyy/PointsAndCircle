@@ -25,7 +25,8 @@ package com.company;
              if(isInsite(TmpPoint))
                  System.out.printf("The point x=%f;y=%f is inside of the circle\n",TmpPoint.x,TmpPoint.y);
              else
-                 System.out.printf("The point x=%f;y=%f is outside of the circle\n",TmpPoint.x,TmpPoint.y);
+                // System.out.printf("The point x=%f;y=%f is outside of the circle\n",TmpPoint.x,TmpPoint.y);
+                continue;
 
          }
      }
